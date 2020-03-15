@@ -10,7 +10,7 @@
         <h3>this is a login form!!</h3>
         Username: <input id="username"></input><br>
         Password: <input id="password" type="password"></input><br>
-        <button onclick="myFunction()">Click me</button>
+        <button onclick="myFunction()">Submit</button>
         <p id="answer"></p>
 
 <script>
