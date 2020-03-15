@@ -214,7 +214,7 @@ body {
 
 
 
-  color: black;
+  color: red;
 
 
 
@@ -354,7 +354,7 @@ body {
 
 
 
-/* Footer */
+/* catfire@twitter.com,catfire@facebook.com,catfire@github.com */
 
 
 
@@ -490,7 +490,7 @@ body {
 
 
 
-  <a href="#" class="right">Author</a>
+  <a href="#" class="right">sign up free</a>
 
 
 
