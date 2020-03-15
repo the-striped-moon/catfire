@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+p {
+  border: 1px solid powderblue;
+}
     <title>The World's Best Website</title>
     <style>
 body {background-color: powderblue;}
