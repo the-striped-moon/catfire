@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The World's Best Website</title>
+</head>
+    <body>
+        <h1>This is a awesome website made by sachin!!!!!</h1>
+        <h3>this weird website is a question website</h3>
+        Question: <input id="question"></input><br>
+        <h3>this is a login form!!</h3>
+        Username: <input id="username"></input><br>
+        Password: <input id="password" type="password"></input><br>
+        <button onclick="myFunction()">Click me</button>
+        <p id="answer"></p>
+
+<script>
+function myFunction() {
+    var question = document.getElementById("question").value;
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    alert("thinking");
+    if (username != "sheshank") {
+        document.getElementById("answer").innerHTML = "Hey! You are not authorized to log in to this website.";
+        return;
+    }
+    if (password.startsWith("cool")) {
+        document.getElementById("answer").innerHTML = password.substr(4);
+    } else {
+        document.getElementById("answer").innerHTML = "Hey! You are not authorized to log in to this website.";
+        return;
+    }
+}
+</script>
+    
+</body>
+</html>
