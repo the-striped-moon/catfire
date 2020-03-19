@@ -11,9 +11,52 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
+  
+<body>
+
+<div class="header">
+  <h1>GreenYer</h1>
+  <p>The #1 best Packers website</p>
+</div>
+
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">Packers</a>
+  <a href="#" class="right">user</a>
+  <a href="#" class="right">Fans</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Jimmmy is a bear</h2>
+    <h5>Jimmy Graham leaving</h5>
+    <div class="faikimg" <img src="https://www.trbimg.com/img-5b92f69d/turbine/ct-spt-bears-scouting-report-packers-jimmy-graham-20180907"></img>style="height:200px;">Image</div>
+    <p>Jimmy Graham is now a bear and is a enemy to packers Because he entered the Chicago Bears, the #1 most enemy to the packers he is not a packer anymore and he should not be aloud in this website and the GreenYer App now since he is a bear now. Guys now if Jimmy Graham is in this website he should be a user that is not signed in so Jimmy Graham is a bear now.<p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+   
+   
+   
+  </div>
+  <div class="main">
+    <h2>Gooddyy</h2>
+    <h5>Tommy is a buccy</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Tom Brady Leaves Patriots</p>
+    <p>Good for us now tom brady left the pats now we won't lose to the pats and the pats will be 0-16 haa.</p>
+    <br>
+    <h2>GreenYer has beat up</h2>
+    <h5>New All</h5>
+    <div class="fakeimg" style="height:300px;">Image</div>
+    <p>We Are leading now we got the chance to win 1st</p>
+    <p>we now need to get to lead tom is a buccy Chargers have a really bad quarterback Pats are the worst team and Bill Bellchick is so dabed, tom is the buccy's QuarterBack and Phillip Rivers is on the Indianapolis Colts we have the ways to win rost the New England Patriots back from 2015 35-0 and win all the stuff to us and we will not need Jimmy Graham to do this we will not need Blake Martenez to do this and we will do this with Aaron Rodgers and we will explore the 16-0 super bowl win for 2020 season.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Greenyer@twitter.com greenyer@fb.com greenyer@insigram.com</h2>
+</div>
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
@@ -136,7 +179,7 @@ span.psw {
 </head>
 <body>
 
-<h2>login</h2>
+<h2>Modal Login Form</h2>
 
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
@@ -180,142 +223,6 @@ window.onclick = function(event) {
 }
 </script>
 
-
-/* Style the header */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-}
-
-/* Increase the font size of the h1 element */
-.header h1 {
-  font-size: 40px;
-}
-
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Column container */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-/* Main column */
-.main {   
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width:100%;
-  }
-}
-</style>
-</head>
-<body>
-
-<div class="header">
-  <h1>GreenYer</h1>
-  <p>The #1 best Packers website</p>
-</div>
-
-<div class="navbar">
-  <a href="#">Home</a>
-  <a href="#">Packers</a>
-  <a href="#" class="right">sign in</a>
-  <a href="#" class="right">Fans</a>
-</div>
-
-<div class="row">
-  <div class="side">
-    <h2>Jimmmy is a bear</h2>
-    <h5>Jimmy Graham leaving</h5>
-    <div class="faikimg" <img src="https://www.trbimg.com/img-5b92f69d/turbine/ct-spt-bears-scouting-report-packers-jimmy-graham-20180907"></img>style="height:200px;">Image</div>
-    <p>Jimmy Graham is now a bear and is a enemy to packers Because he entered the Chicago Bears, the #1 most enemy to the packers he is not a packer anymore and he should not be aloud in this website and the GreenYer App now since he is a bear now. Guys now if Jimmy Graham is in this website he should be a user that is not signed in so Jimmy Graham is a bear now.<p>
-    <h3>More Text</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-   
-   
-   
-  </div>
-  <div class="main">
-    <h2>Gooddyy</h2>
-    <h5>Tommy is a buccy</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Tom Brady Leaves Patriots</p>
-    <p>Good for us now tom brady left the pats now we won't lose to the pats and the pats will be 0-16 haa.</p>
-    <br>
-    <h2>GreenYer has beat up</h2>
-    <h5>New All</h5>
-    <div class="fakeimg" style="height:300px;">Image</div>
-    <p>We Are leading now we got the chance to win 1st</p>
-    <p>we now need to get to lead tom is a buccy Chargers have a really bad quarterback Pats are the worst team and Bill Bellchick is so dabed, tom is the buccy's QuarterBack and Phillip Rivers is on the Indianapolis Colts we have the ways to win rost the New England Patriots back from 2015 35-0 and win all the stuff to us and we will not need Jimmy Graham to do this we will not need Blake Martenez to do this and we will do this with Aaron Rodgers and we will explore the 16-0 super bowl win for 2020 season.</p>
-  </div>
-</div>
-
-<div class="footer">
-  <h2>Greenyer@twitter.com greenyer@fb.com greenyer@insigram.com</h2>
-</div>
 
 </body>
 </html>
