@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+<title>Greenyer</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -9,13 +9,12 @@
   box-sizing: border-box;
 }
 
-/* Style the body */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
-/* Header/logo Title */
+/* Style the header */
 .header {
   padding: 80px;
   text-align: center;
@@ -23,7 +22,7 @@ body {
   color: white;
 }
 
-/* Increase the font size of the heading */
+/* Increase the font size of the h1 element */
 .header h1 {
   font-size: 40px;
 }
@@ -57,16 +56,13 @@ body {
 
 /* Column container */
 .row {  
-  display: -ms-flexbox; /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
 }
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  -ms-flex: 30%; /* IE10 */
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
@@ -74,7 +70,6 @@ body {
 
 /* Main column */
 .main {   
-  -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: white;
   padding: 20px;
@@ -105,7 +100,7 @@ body {
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;
-    width: 100%;
+    width:100%;
   }
 }
 </style>
@@ -113,23 +108,23 @@ body {
 <body>
 
 <div class="header">
-  <h1>My Website</h1>
-  <p>A website created by me.</p>
+  <h1>GreenYer</h1>
+  <p>The #1 best Packers website</p>
 </div>
 
 <div class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" class="right">Link</a>
+  <a href="#">Home</a>
+  <a href="#">Packers</a>
+  <a href="#" class="right">sign in</a>
+  <a href="#" class="right">Fans</a>
 </div>
 
 <div class="row">
   <div class="side">
-    <h2>About Me</h2>
+    <h2>Jimmmy is a bear</h2>
     <h5>Photo of me:</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <div class="https://www.trbimg.com/img-5b92f69d/turbine/ct-spt-bears-scouting-report-packers-jimmy-graham-20180907" style="height:200px;">Image</div>
+    <p>Jimmy Graham is now a bear and is a enemy to packers Because he entered the Chicago Bears, the #1 most enemy to the packers he is not a packer anymore and he should not be aloud in this website and the GreenYer App now since he is a bear now. Guys now if Jimmy Graham is in this website he should be a user that is not signed in so Jimmy Graham is a bear now.<p>
     <h3>More Text</h3>
     <p>Lorem ipsum dolor sit ame.</p>
     <div class="fakeimg" style="height:60px;">Image</div><br>
@@ -145,14 +140,14 @@ body {
     <br>
     <h2>TITLE HEADING</h2>
     <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
+    <div class="fakeimg" style="height:300px;">Image</div>
     <p>Some text..</p>
     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
   </div>
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  <h2>Greenyer@twitter.com greenyer@fb.com greenyer@insigram.com</h2>
 </div>
 
 </body>
