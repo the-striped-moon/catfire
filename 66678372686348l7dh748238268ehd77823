@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+<title>Greenyer</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -113,9 +113,9 @@ body {
 </div>
 
 <div class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <a href="#">Home</a>
+  <a href="#">Packers</a>
+  <a href="#" class="right">sign in</a>
   <a href="#" class="right">Link</a>
 </div>
 
