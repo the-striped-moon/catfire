@@ -110,11 +110,11 @@ input {
 .addBtn {
   padding: 10px;
   width: 25%;
-  background: #d9d9d9;
-  color: #555;
+  background: #blue;
+  color: #green;
   float: left;
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
   cursor: pointer;
   transition: 0.3s;
   border-radius: 0;
@@ -128,7 +128,7 @@ input {
 <body>
 
 <div id="myDIV" class="header">
-  <h2 style="margin:5px">My To Do List</h2>
+  <h2 style="margin:5px">the list that has to do-s</h2>
   <input type="text" id="myInput" placeholder="Title...">
   <span onclick="newElement()" class="addBtn">Add</span>
 </div>
